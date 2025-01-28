@@ -654,8 +654,6 @@ nav a:hover {
     /* Header Adjustments */
     header {
         padding: 10px 15px;
-        flex-direction: column;
-        gap: 10px;
         align-items: flex-start;
     }
 
@@ -671,15 +669,30 @@ nav a:hover {
     }
 
     nav {
-        flex-direction: column;
-        gap: 10px;
+        display: none;
         align-items: flex-start;
+        gap: 3px;
+        /* Smaller gap on mobile */
+        text-align: center;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        padding: 10px 0;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    nav.show {
+        display: flex;
     }
 
     nav a {
-        padding: 8px 15px;
+        margin: 5px 0;
+        padding: 5px;
         font-size: 0.9rem;
     }
+
 
     nav.show {
         display: flex;
