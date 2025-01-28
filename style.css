@@ -648,7 +648,6 @@ nav a:hover {
     /* General Body Adjustments */
     body {
         font-size: 14px;
-        padding: 0 10px;
     }
 
     /* Header Adjustments */
@@ -740,7 +739,6 @@ nav a:hover {
         text-align: justify;
         margin-top: 5px !important;
     }
-
 
     .hero .cta {
         padding: 10px 20px;
@@ -934,13 +932,13 @@ nav a:hover {
 /* Medium devices: tablets between 481px and 768px */
 @media (min-width: 481px) and (max-width: 768px) {
     body {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     /* Header Adjustments */
 
     header {
-        padding: 15px 20px;
+        padding: 15px 30px;
         flex-wrap: wrap;
         /* Allows wrapping in landscape mode */
     }
@@ -961,20 +959,19 @@ nav a:hover {
     }
 
     nav {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 60px;
-        /* Place below the header */
-        right: 0;
-        width: 100%;
         background: rgba(255, 255, 255, 0.95);
         /* Match header background */
+        padding: 10px 0;
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        position: absolute;
+        top: 55px;
+        left: 0;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
         z-index: 1000;
         /* Keep navigation above hero content */
         text-align: center;
-        padding: 10px 0;
     }
 
     nav.show {
@@ -982,10 +979,9 @@ nav a:hover {
     }
 
     nav a {
-        font-size: 1.2rem;
-        padding: 12px 22px;
+        font-size: 0.9rem;
+        padding: 10px;
         border-radius: 20px;
-        margin: 10px 0;
         text-decoration: none;
         color: #333;
     }
@@ -1222,8 +1218,7 @@ nav a:hover {
 
     /* General Body Adjustments */
     body {
-        font-size: 16px;
-        padding: 0 15px;
+        font-size: 20px;
     }
 
     /* Header Adjustments */
@@ -1249,10 +1244,16 @@ nav a:hover {
         padding: 10px 15px;
     }
 
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 45px;
+    }
 
     .hero .container {
         flex-direction: column;
-        padding: 25px;
+        padding: 30px;
     }
 
     .hero .text-content {
@@ -1262,7 +1263,7 @@ nav a:hover {
     .hero .caption {
         font-family: 'Great Vibes', cursive;
         font-size: 2.5rem;
-        margin-top: 28px !important;
+        margin-top: 20px !important;
         text-align: center;
         margin-right: 20px;
     }
@@ -1304,9 +1305,7 @@ nav a:hover {
         padding: 25px 15px;
     }
 
-
     .product-grid {
-        display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }
@@ -1398,6 +1397,12 @@ nav a:hover {
         justify-content: space-around;
         align-items: flex-start;
         gap: 15px;
+    }
+
+
+    .footer-intro p {
+        font-size: 16px;
+        margin-top: 18px;
     }
 
     .footer-links p a {
