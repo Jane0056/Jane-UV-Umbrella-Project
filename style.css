@@ -934,9 +934,8 @@ nav a:hover {
 /* Medium devices: tablets between 481px and 768px */
 @media (min-width: 481px) and (max-width: 768px) {
     body {
-            font-size: 16px;
-            padding: 0 15px;
-        }
+        font-size: 16px;
+    }
 
     /* Header Adjustments */
 
@@ -1084,140 +1083,347 @@ nav a:hover {
         height: 60px;
     }
 
-        /* Product Section Adjustments */
-        .product-section {
-            padding: 20px 10px;
-        }
-    
-        .product-grid {
-            flex-direction: column;
-            gap: 15px;
-        }
-    
-        .product {
-            width: 100%;
-            padding: 15px;
-        }
-    
-        .product img {
-            height: 150px;
-        }
-    
-        .product h3 {
-            font-size: 0.95rem;
-        }
-    
-    
-        .product .price {
-            font-size: 1rem;
-        }
-    
-        .product .rating,
-        .product .reviews {
-            font-size: 0.85rem;
-        }
-    
-        .add-to-cart {
-            font-size: 12px;
-            /* Smallest font size */
-            padding: 5px 8px;
-            /* Smallest padding */
-            bottom: 8px;
-            /* Adjust position */
-        }
-    
-    
-        /*testimonial*/
-        .testimonial-grid {
-            grid-template-columns: 1fr;
-            /* Single column layout for phones */
-        }
-    
-        .testi-item {
-            padding: 15px;
-        }
-    
-        .testi-thumb img {
-            width: 50px;
-            height: 50px;
-        }
-    
-        .testi-item .story {
-            font-size: 0.85rem;
-        }
-    
-    
-        /* FAQ Section Adjustments */
-        .faq-section {
-            padding: 10px 10px;
-        }
-    
-        .faq-wrap {
-            gap: 10px;
-        }
-    
-        .faq-item {
-            padding: 15px;
-        }
-    
-        .faq-question {
-            font-size: 1rem;
-            padding: 15px;
-        }
-    
-    
-        .faq-answer {
-            font-size: 0.9rem;
-            padding: 15px;
-        }
-    
-        /* CTA Section Adjustments */
-        .cta-section {
-            padding: 20px 10px;
-        }
-    
-        .cta-button {
-            padding: 12px 25px;
-            font-size: 1rem;
-        }
-         
-        /* Footer Adjustments */
-        .footer {
-            padding: 20px 10px;
-            font-size: 12px;
-        }
-    
-        .footer-info {
-            flex-direction: column;
-            align-items: center;
-            gap: 10px;
-        }
-    
-        .footer-links p a {
-            font-size: 0.9rem;
-        }
-    
-        .social-media p a {
-            font-size: 1rem;
-        }
-    
-        .footer-signature p {
-            font-size: 16px;
-            margin-top: 18px;
-        }
-    
-        .footer-signature p {
-            font-size: 16px;
-            margin-top: 18px;
-        }
-    
-        .footer-copyright {
-            font-size: 0.85em;
-            margin-top: 20px;
-        }
+    /* Product Section Adjustments */
+    .product-section {
+        padding: 20px 10px;
+    }
+
+    .product-grid {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .product {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .product img {
+        height: 150px;
+    }
+
+    .product h3 {
+        font-size: 0.95rem;
+    }
 
 
-    
-   
+    .product .price {
+        font-size: 1rem;
+    }
+
+    .product .rating,
+    .product .reviews {
+        font-size: 0.85rem;
+    }
+
+    .add-to-cart {
+        font-size: 12px;
+        /* Smallest font size */
+        padding: 5px 8px;
+        /* Smallest padding */
+        bottom: 8px;
+        /* Adjust position */
+    }
+
+
+    /*testimonial*/
+    .testimonial-grid {
+        grid-template-columns: 1fr;
+        /* Single column layout for phones */
+    }
+
+    .testi-item {
+        padding: 15px;
+    }
+
+    .testi-thumb img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .testi-item .story {
+        font-size: 0.85rem;
+    }
+
+
+    /* FAQ Section Adjustments */
+    .faq-section {
+        padding: 10px 10px;
+    }
+
+    .faq-wrap {
+        gap: 10px;
+    }
+
+    .faq-item {
+        padding: 15px;
+    }
+
+    .faq-question {
+        font-size: 1rem;
+        padding: 15px;
+    }
+
+
+    .faq-answer {
+        font-size: 0.9rem;
+        padding: 15px;
+    }
+
+    /* CTA Section Adjustments */
+    .cta-section {
+        padding: 20px 10px;
+    }
+
+    .cta-button {
+        padding: 12px 25px;
+        font-size: 1rem;
+    }
+
+    /* Footer Adjustments */
+    .footer {
+        padding: 20px 10px;
+        font-size: 12px;
+    }
+
+    .footer-info {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .footer-links p a {
+        font-size: 0.9rem;
+    }
+
+    .social-media p a {
+        font-size: 1rem;
+    }
+
+    .footer-signature p {
+        font-size: 16px;
+        margin-top: 18px;
+    }
+
+    .footer-signature p {
+        font-size: 16px;
+        margin-top: 18px;
+    }
+
+    .footer-copyright {
+        font-size: 0.85em;
+        margin-top: 20px;
+    }
+
+}
+
+/* Large phones and small laptops: 769px to 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    /* General Body Adjustments */
+    body {
+        font-size: 16px;
+        padding: 0 15px;
+    }
+
+    /* Header Adjustments */
+    header {
+        padding: 15px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo img {
+        height: 45px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        gap: 15px;
+    }
+
+    nav a {
+        font-size: 1rem;
+        padding: 10px 15px;
+    }
+
+
+    .hero .container {
+        flex-direction: column;
+        padding: 25px;
+    }
+
+    .hero .text-content {
+        max-width: 100%;
+    }
+
+    .hero .caption {
+        font-family: 'Great Vibes', cursive;
+        font-size: 2.5rem;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .hero .hero-body {
+        font-size: 1rem;
+        margin: 10px 0;
+        text-align: justify;
+        margin-top: 5px !important;
+    }
+
+    .hero .cta {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .hero .image img {
+        max-width: 100%;
+        margin: 0;
+        border-radius: 10px;
+    }
+
+    /* About Section */
+    .features-section {
+        padding: 30px 15px;
+    }
+
+    .featuregrids {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+
+    .features-wrap {
+        padding: 20px;
+    }
+
+    .feature-items h3 {
+        font-size: 1.4rem;
+    }
+
+    .feature-items .story {
+        font-size: 0.9rem;
+        text-align: justify;
+    }
+
+    /* Product Section Adjustments */
+    .product-section {
+        padding: 25px 15px;
+    }
+
+    .product-grid {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .product-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .product {
+        max-width: 90%;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .product img {
+        height: 180px;
+    }
+
+    .product h3 {
+        font-size: 1rem;
+    }
+
+    .product .price {
+        font-size: 1.1rem;
+    }
+
+    .product .rating {
+        font-size: 0.9rem;
+    }
+
+
+    /* Testimonials Section */
+    .testimonial-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .testi-item {
+        padding: 20px;
+    }
+
+    .testi-thumb img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .testi-item .story {
+        font-size: 0.95rem;
+    }
+
+
+    /* FAQ Section */
+    .faq-section {
+        padding: 20px 15px;
+    }
+
+    .faq-wrap {
+        gap: 15px;
+    }
+
+    .faq-item {
+        padding: 20px;
+    }
+
+    .faq-question {
+        font-size: 1.1rem;
+    }
+
+
+    .faq-answer {
+        font-size: 1.1rem;
+    }
+
+    /* CTA Section */
+    .cta-section {
+        padding: 30px 15px;
+        text-align: center;
+    }
+
+    .cta-button {
+        padding: 15px 25px;
+        font-size: 1.1rem;
+    }
+
+    /* Footer Adjustments */
+    .footer {
+        padding: 20px 15px;
+        font-size: 14px;
+    }
+
+    .footer-info {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .footer-links p a {
+        font-size: 0.95rem;
+    }
+
+    .footer-signature p {
+        font-size: 14px;
+    }
+
+    .footer-copyright {
+        font-size: 0.85rem;
+    }
 
 }
