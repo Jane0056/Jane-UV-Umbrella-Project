@@ -441,3 +441,85 @@ nav a:hover {
     font-size: 1.1rem;
     color: #f0a500;
 }
+
+/* FAQ Container */
+
+#faq {
+    background: linear-gradient(to bottom, #f3f8ff, #e1edfa);
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#faq h2 {
+    margin-bottom: 15px;
+}
+
+#faq .story {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* FAQ Wrapper */
+.faq-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* FAQ Item */
+.faq-item {
+    background: linear-gradient(to top, #ffffff, #eef5ff);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+/* Hover Effect */
+.faq-item:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+}
+
+/* FAQ Question */
+.faq-question {
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 20px;
+    color: #005bbb;
+    background: #e1edfa;
+    border-bottom: 1px solid #ddd;
+    transition: color 0.3s ease, background 0.3s ease;
+}
+
+.faq-item:hover .faq-question {
+    color: #1e3c72;
+    background: #d8e6ff;
+}
+
+/* FAQ Answer */
+.faq-answer {
+    display: none;
+    padding: 20px;
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.faq-item[open] .faq-answer {
+    display: block;
+}
+
+.faq-item[open] .faq-question {
+    color: #66a6ff;
+    background: #eef5ff;
+}
+
