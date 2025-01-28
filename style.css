@@ -666,6 +666,7 @@ nav a:hover {
     .toggle-btn {
         display: block;
         align-self: flex-end;
+        color: #003d99;
     }
 
     nav {
