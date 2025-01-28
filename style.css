@@ -658,7 +658,6 @@ nav a:hover {
         justify-content: space-between;
     }
 
-
     .logo img {
         height: 30px;
         margin-bottom: 10px;
@@ -732,33 +731,17 @@ nav a:hover {
     .hero .caption {
         font-family: 'Great Vibes', cursive;
         font-size: 2.5rem;
-        margin-top: 20px;
+        margin-top: 15px;
         text-align: center;
     }
-
-    /*
-    .hero .caption {
-        font-family: 'Great Vibes', cursive;
-        font-size: 40px;
-        font-weight: 500;
-        margin-top: 15px !important;
-        text-align: center;
-        margin-right: 25px;
-    }*/
 
     .hero .hero-body {
         font-size: 1rem;
         margin: 10px 0;
         text-align: justify;
+        margin-bottom: 15px;
     }
 
-    /*   
-    .hero .hero-body {
-        font-size: 0.9rem;
-        margin-right: 0;
-        text-align: justify;
-        margin-bottom: 15px;
-    }*/
 
     .hero .cta {
         padding: 10px 20px;
@@ -774,7 +757,7 @@ nav a:hover {
 
     /* Adjust hero section position when nav is open */
     nav.show~.hero {
-        margin-top: 60px;
+        margin-top: 40px;
         /* Push hero content down */
     }
 
