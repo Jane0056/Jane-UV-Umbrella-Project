@@ -1262,8 +1262,9 @@ nav a:hover {
     .hero .caption {
         font-family: 'Great Vibes', cursive;
         font-size: 2.5rem;
-        margin-top: 15px;
+        margin-top: 48px !important;
         text-align: center;
+        margin-right: 20px;
     }
 
     .hero .hero-body {
@@ -1274,7 +1275,7 @@ nav a:hover {
     }
 
     .hero .cta {
-        padding: 10px 20px;
+        padding: 15px 25px;
         font-size: 0.9rem;
         text-align: center;
     }
@@ -1286,38 +1287,23 @@ nav a:hover {
     }
 
     /* About Section */
-    .features-section {
-        padding: 30px 15px;
-    }
 
     .featuregrids {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
-    }
-
-
-    .features-wrap {
-        padding: 20px;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+        padding: 10px;
     }
 
     .feature-items h3 {
         font-size: 1.4rem;
     }
 
-    .feature-items .story {
-        font-size: 0.9rem;
-        text-align: justify;
-    }
 
     /* Product Section Adjustments */
     .product-section {
         padding: 25px 15px;
     }
 
-    .product-grid {
-        flex-direction: column;
-        gap: 15px;
-    }
 
     .product-grid {
         display: grid;
