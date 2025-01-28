@@ -930,3 +930,294 @@ nav a:hover {
     }
 
 }
+
+/* Medium devices: tablets between 481px and 768px */
+@media (min-width: 481px) and (max-width: 768px) {
+    body {
+            font-size: 16px;
+            padding: 0 15px;
+        }
+
+    /* Header Adjustments */
+
+    header {
+        padding: 15px 20px;
+        flex-wrap: wrap;
+        /* Allows wrapping in landscape mode */
+    }
+
+    .logo img {
+        height: 35px;
+        margin-bottom: 15px;
+        /* Add space below logo */
+    }
+
+    .toggle-btn {
+        display: block;
+        color: #003d99;
+        font-size: 24px;
+        align-self: flex-end;
+        z-index: 1001;
+        /* Ensure toggle button is always above other elements */
+    }
+
+    nav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        /* Place below the header */
+        right: 0;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.95);
+        /* Match header background */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+        /* Keep navigation above hero content */
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    nav.show {
+        display: flex;
+    }
+
+    nav a {
+        font-size: 1.2rem;
+        padding: 12px 22px;
+        border-radius: 20px;
+        margin: 10px 0;
+        text-decoration: none;
+        color: #333;
+    }
+
+    /* Home Section */
+    /* Hero Section Adjustments */
+    .hero {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 40px 15px;
+        /* Add padding to prevent overlap with the navigation */
+    }
+
+    .hero .container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .hero .text-content {
+        max-width: 100%;
+    }
+
+    .hero .caption {
+        font-family: 'Great Vibes', cursive;
+        font-size: 2.5rem;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .hero .hero-body {
+        font-size: 1rem;
+        margin: 10px 0;
+        text-align: justify;
+        margin-top: 5px !important;
+    }
+
+    .hero .cta {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .hero .image img {
+        max-width: 100%;
+        margin: 0;
+        border-radius: 10px;
+    }
+
+    /* About Section */
+    .features-section {
+        padding: 30px 15px;
+        text-align: center;
+    }
+
+    .subsection h2 {
+        font-size: 2rem;
+        margin-right: 0;
+    }
+
+    .subsection .story {
+        font-size: 1rem;
+        padding: 15px;
+        margin: 0;
+        text-align: justify;
+        margin-right: 0;
+    }
+
+    .featuregrids {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .features-wrap {
+        padding: 15px;
+    }
+
+    .feature-items h3 {
+        font-size: 1.5rem;
+        margin: 0 0 15px;
+    }
+
+    .feature-items .story {
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    .icon-wrap {
+        width: 55px;
+        height: 55px;
+    }
+
+    .icon-wrapper {
+        width: 60px;
+        height: 60px;
+    }
+
+        /* Product Section Adjustments */
+        .product-section {
+            padding: 20px 10px;
+        }
+    
+        .product-grid {
+            flex-direction: column;
+            gap: 15px;
+        }
+    
+        .product {
+            width: 100%;
+            padding: 15px;
+        }
+    
+        .product img {
+            height: 150px;
+        }
+    
+        .product h3 {
+            font-size: 0.95rem;
+        }
+    
+    
+        .product .price {
+            font-size: 1rem;
+        }
+    
+        .product .rating,
+        .product .reviews {
+            font-size: 0.85rem;
+        }
+    
+        .add-to-cart {
+            font-size: 12px;
+            /* Smallest font size */
+            padding: 5px 8px;
+            /* Smallest padding */
+            bottom: 8px;
+            /* Adjust position */
+        }
+    
+    
+        /*testimonial*/
+        .testimonial-grid {
+            grid-template-columns: 1fr;
+            /* Single column layout for phones */
+        }
+    
+        .testi-item {
+            padding: 15px;
+        }
+    
+        .testi-thumb img {
+            width: 50px;
+            height: 50px;
+        }
+    
+        .testi-item .story {
+            font-size: 0.85rem;
+        }
+    
+    
+        /* FAQ Section Adjustments */
+        .faq-section {
+            padding: 10px 10px;
+        }
+    
+        .faq-wrap {
+            gap: 10px;
+        }
+    
+        .faq-item {
+            padding: 15px;
+        }
+    
+        .faq-question {
+            font-size: 1rem;
+            padding: 15px;
+        }
+    
+    
+        .faq-answer {
+            font-size: 0.9rem;
+            padding: 15px;
+        }
+    
+        /* CTA Section Adjustments */
+        .cta-section {
+            padding: 20px 10px;
+        }
+    
+        .cta-button {
+            padding: 12px 25px;
+            font-size: 1rem;
+        }
+         
+        /* Footer Adjustments */
+        .footer {
+            padding: 20px 10px;
+            font-size: 12px;
+        }
+    
+        .footer-info {
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+    
+        .footer-links p a {
+            font-size: 0.9rem;
+        }
+    
+        .social-media p a {
+            font-size: 1rem;
+        }
+    
+        .footer-signature p {
+            font-size: 16px;
+            margin-top: 18px;
+        }
+    
+        .footer-signature p {
+            font-size: 16px;
+            margin-top: 18px;
+        }
+    
+        .footer-copyright {
+            font-size: 0.85em;
+            margin-top: 20px;
+        }
+
+
+    
+   
+
+}
