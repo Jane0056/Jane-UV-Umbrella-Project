@@ -694,7 +694,6 @@ nav a:hover {
         font-size: 0.9rem;
     }
 
-
     nav.show {
         display: flex;
     }
@@ -720,7 +719,7 @@ nav a:hover {
         font-family: 'Great Vibes', cursive;
         font-size: 40px;
         font-weight: 500;
-        margin-top: 5px !important;
+        margin-top: 15px !important;
         text-align: center;
         margin-right: 25px;
     }
