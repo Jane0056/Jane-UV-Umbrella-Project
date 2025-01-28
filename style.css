@@ -513,7 +513,6 @@ nav a:hover {
     background: #eef5ff;
 }
 
-
 /* CTA Section */
 .cta-section {
     padding: 40px 20px;
@@ -542,4 +541,102 @@ nav a:hover {
     color: #333;
     transform: translateY(-3px) scale(1.05);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.25);
+}
+
+/* Footer Styling */
+.footer {
+    background: linear-gradient(to top, #eef5ff, #ffffff);
+    color: #333;
+    padding: 40px 20;
+    text-align: center;
+    font-size: 14.5px;
+    font-weight: 300;
+    line-height: 1.8;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+    border-top: 1px solid #ddd;
+    /* Subtle border for separation */
+}
+
+
+/* Footer Intro */
+.footer-intro {
+    margin-top: 40px;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Footer Info Section */
+.footer-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.footer-info p a {
+    color: #005bbb;
+    /* Brand color for links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-info p a:hover {
+    color: #66a6ff;
+    /* Lighter shade on hover */
+}
+
+/* Footer Links */
+.footer-links p a {
+    color: #005bbb;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links p a:hover {
+    color: #66a6ff;
+    font-weight: 500;
+    /* Emphasized hover effect */
+}
+
+/* Social Media Icons */
+.social-media p a {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 0 10px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-media p a:hover {
+    color: #005bbb;
+    transform: scale(1.2);
+    /* Enlarges slightly on hover */
+}
+
+/* Footer Signature */
+.footer-signature {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+}
+
+.footer-signature a {
+    color: #005bbb;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.footer-signature a:hover {
+    color: #66a6ff;
+}
+
+/* Copyright Section */
+
+.footer-copyright {
+    margin-top: 30px;
+    font-size: 0.8rem;
+    color: #999;
+    text-align: center;
 }
