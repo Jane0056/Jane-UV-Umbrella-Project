@@ -654,8 +654,10 @@ nav a:hover {
     /* Header Adjustments */
     header {
         padding: 10px 15px;
-        align-items: flex-start;
+        align-items: center;
+        justify-content: space-between;
     }
+
 
     .logo img {
         height: 30px;
@@ -665,23 +667,28 @@ nav a:hover {
 
     .toggle-btn {
         display: block;
-        align-self: flex-end;
         color: #003d99;
+        font-size: 24px;
+        align-self: flex-end;
+        z-index: 1001;
+        /* Ensure toggle button is always above other elements */
     }
 
     nav {
         display: none;
-        align-items: flex-start;
-        gap: 3px;
-        /* Smaller gap on mobile */
-        text-align: center;
         flex-direction: column;
         position: absolute;
         top: 60px;
+        /* Place below the header */
         right: 0;
         width: 100%;
-        padding: 10px 0;
+        background: rgba(255, 255, 255, 0.95);
+        /* Match header background */
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+        /* Keep navigation above hero content */
+        text-align: center;
+        padding: 10px 0;
     }
 
     nav.show {
@@ -689,22 +696,29 @@ nav a:hover {
     }
 
     nav a {
+        padding: 10px 20px;
+        font-size: 1rem;
+        border-radius: 20px;
         margin: 5px 0;
-        padding: 5px;
-        font-size: 0.9rem;
+        text-decoration: none;
+        color: #333;
     }
+
 
     nav.show {
         display: flex;
     }
 
     /* Home Section */
+    /* Hero Section Adjustments */
     .hero {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        padding: 15px;
+        padding: 80px 15px 15px;
+        /* Add padding to prevent overlap with the navigation */
     }
+
 
     .hero .container {
         flex-direction: column;
@@ -717,19 +731,34 @@ nav a:hover {
 
     .hero .caption {
         font-family: 'Great Vibes', cursive;
+        font-size: 2.5rem;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    /*
+    .hero .caption {
+        font-family: 'Great Vibes', cursive;
         font-size: 40px;
         font-weight: 500;
         margin-top: 15px !important;
         text-align: center;
         margin-right: 25px;
+    }*/
+
+    .hero .hero-body {
+        font-size: 1rem;
+        margin: 10px 0;
+        text-align: justify;
     }
 
+    /*   
     .hero .hero-body {
         font-size: 0.9rem;
         margin-right: 0;
         text-align: justify;
         margin-bottom: 15px;
-    }
+    }*/
 
     .hero .cta {
         padding: 10px 20px;
@@ -741,6 +770,12 @@ nav a:hover {
         max-width: 100%;
         margin: 0;
         border-radius: 10px;
+    }
+
+    /* Adjust hero section position when nav is open */
+    nav.show~.hero {
+        margin-top: 60px;
+        /* Push hero content down */
     }
 
     /* About Section */
