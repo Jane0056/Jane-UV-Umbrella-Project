@@ -640,3 +640,273 @@ nav a:hover {
     color: #999;
     text-align: center;
 }
+
+/* Responsive styling */
+/* Small screens: phones up to 480px */
+@media (max-width: 480px) {
+
+    /* General Body Adjustments */
+    body {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    /* Header Adjustments */
+    header {
+        padding: 10px 15px;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+
+    .logo img {
+        height: 30px;
+        margin-bottom: 10px;
+        /* Add space below logo */
+    }
+
+    .toggle-btn {
+        display: block;
+        align-self: flex-end;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+
+    nav a {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+
+    nav.show {
+        display: flex;
+    }
+
+    /* Home Section */
+    .hero {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .hero .container {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .hero .text-content {
+        max-width: 100%;
+    }
+
+    .hero .caption {
+        font-family: 'Great Vibes', cursive;
+        font-size: 40px;
+        font-weight: 500;
+        margin-top: 5px !important;
+        text-align: center;
+        margin-right: 25px;
+    }
+
+    .hero .hero-body {
+        font-size: 0.9rem;
+        margin-right: 0;
+        text-align: justify;
+        margin-bottom: 15px;
+    }
+
+    .hero .cta {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .hero .image img {
+        max-width: 100%;
+        margin: 0;
+        border-radius: 10px;
+    }
+
+    /* About Section */
+    .features-section {
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .subsection h2 {
+        font-size: 1.5rem;
+        margin-right: 0;
+    }
+
+    .subsection .story {
+        font-size: 0.85rem;
+        padding: 10px;
+        margin: 0;
+        text-align: justify;
+        margin-right: 0;
+    }
+
+    .featuregrids {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+
+    .features-wrap {
+        padding: 15px;
+    }
+
+    .feature-items h3 {
+        font-size: 1.1rem;
+        margin: 0 0 10px;
+    }
+
+    .feature-items .story {
+        font-size: 0.85rem;
+        text-align: justify;
+    }
+
+    .icon-wrap {
+        width: 50px;
+        height: 50px;
+    }
+
+    /* Product Section Adjustments */
+    .product-section {
+        padding: 20px 10px;
+    }
+
+    .product-grid {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .product {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .product img {
+        height: 150px;
+    }
+
+    .product h3 {
+        font-size: 0.95rem;
+    }
+
+
+    .product .price {
+        font-size: 1rem;
+    }
+
+    .product .rating,
+    .product .reviews {
+        font-size: 0.85rem;
+    }
+
+    .add-to-cart {
+        font-size: 12px;
+        /* Smallest font size */
+        padding: 5px 8px;
+        /* Smallest padding */
+        bottom: 8px;
+        /* Adjust position */
+    }
+
+
+    /*testimonial*/
+    .testimonial-grid {
+        grid-template-columns: 1fr;
+        /* Single column layout for phones */
+    }
+
+    .testi-item {
+        padding: 15px;
+    }
+
+    .testi-thumb img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .testi-item .story {
+        font-size: 0.85rem;
+    }
+
+
+    /* FAQ Section Adjustments */
+    .faq-section {
+        padding: 10px 10px;
+    }
+
+    .faq-wrap {
+        gap: 10px;
+    }
+
+    .faq-item {
+        padding: 15px;
+    }
+
+    .faq-question {
+        font-size: 1rem;
+        padding: 15px;
+    }
+
+
+    .faq-answer {
+        font-size: 0.9rem;
+        padding: 15px;
+    }
+
+    /* CTA Section Adjustments */
+    .cta-section {
+        padding: 20px 10px;
+    }
+
+    .cta-button {
+        padding: 12px 25px;
+        font-size: 1rem;
+    }
+
+
+    /* Footer Adjustments */
+    .footer {
+        padding: 20px 10px;
+        font-size: 12px;
+    }
+
+
+    .footer-info {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+
+
+    .footer-links p a {
+        font-size: 0.9rem;
+    }
+
+    .social-media p a {
+        font-size: 1rem;
+    }
+
+    .footer-signature p {
+        font-size: 16px;
+        margin-top: 18px;
+    }
+
+    .footer-signature p {
+        font-size: 16px;
+        margin-top: 18px;
+    }
+
+    .footer-copyright {
+        font-size: 0.85em;
+        margin-top: 20px;
+    }
+
+}
