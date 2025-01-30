@@ -333,7 +333,6 @@ nav a:hover {
     color: #333;
 }
 
-
 .star.filled {
     color: #f0a500;
     /* Gold color for filled stars */
@@ -702,7 +701,6 @@ nav a:hover {
         color: #333;
     }
 
-
     nav.show {
         display: flex;
     }
@@ -741,9 +739,8 @@ nav a:hover {
     }
 
     .hero .cta {
-        padding: 10px 20px;
-        font-size: 0.9rem;
-        text-align: center;
+        padding: 12px 25px;
+        font-size: 1rem;
     }
 
     .hero .image img {
@@ -818,7 +815,6 @@ nav a:hover {
         font-size: 0.95rem;
     }
 
-
     .product .price {
         font-size: 1rem;
     }
@@ -826,6 +822,37 @@ nav a:hover {
     .product .rating,
     .product .reviews {
         font-size: 0.85rem;
+    }
+
+    .product .rating,
+    .product .reviews,
+    .testi-item .reviews,
+    .testi-item .rating {
+        font-size: 1.2rem;
+        /* Increase font size for better visibility */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rating .star {
+        font-size: 1.5rem;
+        /* Make the stars bigger */
+        margin: 2px;
+        /* Add spacing between stars */
+    }
+
+    .rating .half {
+        position: relative;
+    }
+
+    .rating .half::before {
+        content: "★";
+        position: absolute;
+        color: gray;
+        /* Make unfilled portion visible */
+        overflow: hidden;
+        width: 50%;
     }
 
     .add-to-cart {
@@ -856,7 +883,6 @@ nav a:hover {
     .testi-item .story {
         font-size: 0.85rem;
     }
-
 
     /* FAQ Section Adjustments */
     .faq-section {
