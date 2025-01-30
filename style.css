@@ -1277,11 +1277,11 @@ nav a:hover {
     }
 
     /* Header Adjustments */
-
     header {
-        padding: 20px 40px;
+        padding: 15px 30px;
+        display: flex;
         flex-wrap: wrap;
-        align-items: flex-end;
+        align-items: center;
         justify-content: space-between;
     }
 
@@ -1290,28 +1290,16 @@ nav a:hover {
     }
 
     nav {
-        background: rgba(255, 255, 255, 0.95);
-        /* Match header background */
-        text-align: center;
+        display: flex;
         align-self: flex-end;
-        padding: 20px 0;
-        display: none;
-        width: 100%;
-        flex-direction: column;
-        position: absolute;
-        top: 55px;
-        left: 0;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        padding: 10px 0;
+        gap: 15px;
         z-index: 1;
     }
 
     nav a {
-        font-size: 1.5rem;
-        padding: 10px 20px;
-        margin: 10px 0;
-        border-radius: 20px;
-        text-decoration: none;
-        color: #333;
+        font-size: 1rem;
+        padding: 10px 15px;
     }
 
     .hero {
