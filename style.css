@@ -146,13 +146,16 @@ nav a:hover {
 }
 
 .hero .cta {
-    background: linear-gradient(135deg, #005bbb, #66a6ff);
-    color: #333;
-    padding: 12px 30px;
+    background: linear-gradient(to right, #ffffff, #eef5ff);
+    color: black;
+    padding: 15px 30px;
     font-size: 1.2rem;
     border-radius: 50px;
     text-decoration: none;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-weight: 700;
+    display: inline-block;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .hero .cta:hover {
@@ -324,7 +327,7 @@ nav a:hover {
 }
 
 .product .rating {
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #f0a500;
 }
 
@@ -441,7 +444,7 @@ nav a:hover {
 }
 
 .reviews .rating {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     color: #f0a500;
 }
 
@@ -741,7 +744,6 @@ nav a:hover {
     .hero .cta {
         padding: 12px 25px;
         font-size: 1rem;
-        margin-bottom: 20px;
     }
 
     .hero .image img {
@@ -988,6 +990,8 @@ nav a:hover {
     nav {
         background: rgba(255, 255, 255, 0.95);
         /* Match header background */
+        text-align: center;
+        align-self: flex-end;
         padding: 10px 0;
         display: none;
         width: 100%;
@@ -998,7 +1002,6 @@ nav a:hover {
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
         z-index: 1000;
         /* Keep navigation above hero content */
-        text-align: center;
     }
 
     nav.show {
@@ -1166,15 +1169,17 @@ nav a:hover {
         width: 50%;
     }
 
+    .product .add-to-cart {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+
     .add-to-cart {
-        font-size: 12px;
-        /* Smallest font size */
-        padding: 5px 8px;
-        /* Smallest padding */
+        font-size: 14px;
+        padding: 10px 20px;
         bottom: 8px;
         /* Adjust position */
     }
-
 
     /*testimonial*/
     .testimonial-grid {
@@ -1290,8 +1295,10 @@ nav a:hover {
 
     nav {
         display: flex;
-        justify-content: flex-end;
+        align-self: flex-end;
+        padding: 10px 0;
         gap: 15px;
+        z-index: 1;
     }
 
     nav a {
@@ -1330,10 +1337,10 @@ nav a:hover {
         margin-top: 5px !important;
     }
 
+
     .hero .cta {
         padding: 15px 25px;
-        font-size: 0.9rem;
-        text-align: center;
+        font-size: 1.1rem;
     }
 
     .hero .image img {
@@ -1366,17 +1373,23 @@ nav a:hover {
     }
 
     .product {
-        max-width: 90%;
-        margin: auto;
-        padding: 20px;
+        width: 100%;
+        padding: 15px;
     }
 
     .product img {
-        height: 180px;
+        height: 150px;
     }
 
     .product h3 {
-        font-size: 1rem;
+        font-size: 0.95rem;
+    }
+
+    .add-to-cart {
+        font-size: 14px;
+        padding: 10px 20px;
+        bottom: 8px;
+        /* Adjust position */
     }
 
     .product .price {
@@ -1462,6 +1475,7 @@ nav a:hover {
         padding: 30px 15px;
         text-align: center;
     }
+
 
     .cta-button {
         padding: 15px 25px;
