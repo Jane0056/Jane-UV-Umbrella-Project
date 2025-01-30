@@ -560,7 +560,6 @@ nav a:hover {
     /* Subtle border for separation */
 }
 
-
 /* Footer Intro */
 .footer-intro {
     margin-top: 40px;
@@ -900,7 +899,6 @@ nav a:hover {
         padding: 15px;
     }
 
-
     .faq-answer {
         font-size: 0.9rem;
         padding: 15px;
@@ -950,7 +948,6 @@ nav a:hover {
         font-size: 0.85em;
         margin-top: 20px;
     }
-
 }
 
 /* Medium devices: tablets between 481px and 768px */
@@ -1002,11 +999,9 @@ nav a:hover {
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     }
 
-
     nav.show {
         display: flex;
     }
-
 
     nav a {
         font-size: 1.5rem;
@@ -1200,7 +1195,6 @@ nav a:hover {
         font-size: 0.85rem;
     }
 
-
     /* FAQ Section Adjustments */
     .faq-section {
         padding: 10px 10px;
@@ -1218,7 +1212,6 @@ nav a:hover {
         font-size: 1rem;
         padding: 15px;
     }
-
 
     .faq-answer {
         font-size: 0.9rem;
@@ -1269,7 +1262,6 @@ nav a:hover {
         font-size: 0.85em;
         margin-top: 20px;
     }
-
 }
 
 /* Large phones and small laptops: 769px to 1024px */
@@ -1356,7 +1348,6 @@ nav a:hover {
         font-size: 0.9rem;
     }
 
-
     /* Product Section Adjustments */
     .product-section {
         padding: 25px 15px;
@@ -1422,7 +1413,6 @@ nav a:hover {
         width: 50%;
     }
 
-
     /* Testimonials Section */
     .testimonial-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -1460,7 +1450,6 @@ nav a:hover {
         font-size: 1.1rem;
     }
 
-
     .faq-answer {
         font-size: 1.1rem;
     }
@@ -1470,7 +1459,6 @@ nav a:hover {
         padding: 30px 15px;
         text-align: center;
     }
-
 
     .cta-button {
         padding: 15px 25px;
@@ -1490,7 +1478,6 @@ nav a:hover {
         gap: 15px;
     }
 
-
     .footer-intro p {
         font-size: 16px;
         margin-top: 18px;
@@ -1507,5 +1494,4 @@ nav a:hover {
     .footer-copyright {
         font-size: 0.85rem;
     }
-
 }
