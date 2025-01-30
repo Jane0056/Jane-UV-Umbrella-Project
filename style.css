@@ -704,10 +704,6 @@ nav a:hover {
         color: #333;
     }
 
-    nav.show {
-        display: flex;
-    }
-
     /* Home Section */
     /* Hero Section Adjustments */
     .hero {
@@ -867,7 +863,6 @@ nav a:hover {
         /* Adjust position */
     }
 
-
     /*testimonial*/
     .testimonial-grid {
         grid-template-columns: 1fr;
@@ -965,11 +960,12 @@ nav a:hover {
     }
 
     /* Header Adjustments */
-
     header {
         padding: 15px 30px;
         flex-wrap: wrap;
         /* Allows wrapping in landscape mode */
+        justify-content: space-between;
+        align-items: flex-end;
     }
 
     .logo img {
@@ -992,7 +988,7 @@ nav a:hover {
         /* Match header background */
         text-align: center;
         align-self: flex-end;
-        padding: 10px 0;
+        padding: 15px 0;
         display: none;
         width: 100%;
         flex-direction: column;
@@ -1009,8 +1005,9 @@ nav a:hover {
     }
 
     nav a {
-        font-size: 0.9rem;
-        padding: 15px;
+        font-size: 1.5rem;
+        padding: 10px 20px;
+        margin: 10px 0;
         border-radius: 20px;
         text-decoration: none;
         color: #333;
@@ -1136,7 +1133,6 @@ nav a:hover {
     .product .price {
         font-size: 1rem;
     }
-
 
     .product .rating,
     .product .reviews,
@@ -1281,11 +1277,11 @@ nav a:hover {
     }
 
     /* Header Adjustments */
+
     header {
-        padding: 15px 30px;
-        display: flex;
+        padding: 20px 40px;
         flex-wrap: wrap;
-        align-items: center;
+        align-items: flex-end;
         justify-content: space-between;
     }
 
@@ -1294,16 +1290,28 @@ nav a:hover {
     }
 
     nav {
-        display: flex;
+        background: rgba(255, 255, 255, 0.95);
+        /* Match header background */
+        text-align: center;
         align-self: flex-end;
-        padding: 10px 0;
-        gap: 15px;
+        padding: 20px 0;
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        position: absolute;
+        top: 55px;
+        left: 0;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
         z-index: 1;
     }
 
     nav a {
-        font-size: 1rem;
-        padding: 10px 15px;
+        font-size: 1.5rem;
+        padding: 10px 20px;
+        margin: 10px 0;
+        border-radius: 20px;
+        text-decoration: none;
+        color: #333;
     }
 
     .hero {
@@ -1325,7 +1333,7 @@ nav a:hover {
     .hero .caption {
         font-family: 'Great Vibes', cursive;
         font-size: 2.5rem;
-        margin-top: 20px !important;
+        margin-top: 5px !important;
         text-align: center;
         margin-right: 20px;
     }
