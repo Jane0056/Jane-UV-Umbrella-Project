@@ -1346,20 +1346,13 @@ nav a:hover {
     }
 
     /* About Section */
-
     .featuregrids {
-        grid-template-columns: 1fr 1fr;
-        gap: 15px;
-        padding: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
     }
 
     .feature-items h3 {
-        font-size: 1rem;
-    }
-
-    .feature-items .story {
-        font-size: 0.85rem;
-        text-align: justify;
+        font-size: 0.9rem;
     }
 
 
