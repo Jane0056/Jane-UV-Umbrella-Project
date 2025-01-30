@@ -1357,6 +1357,11 @@ nav a:hover {
         font-size: 1rem;
     }
 
+    .feature-items .story {
+        font-size: 0.85rem;
+        text-align: justify;
+    }
+
 
     /* Product Section Adjustments */
     .product-section {
