@@ -741,6 +741,7 @@ nav a:hover {
     .hero .cta {
         padding: 12px 25px;
         font-size: 1rem;
+        margin-bottom: 20px;
     }
 
     .hero .image img {
@@ -1006,7 +1007,7 @@ nav a:hover {
 
     nav a {
         font-size: 0.9rem;
-        padding: 10px;
+        padding: 15px;
         border-radius: 20px;
         text-decoration: none;
         color: #333;
@@ -1110,8 +1111,6 @@ nav a:hover {
         padding: 20px 10px;
     }
 
-
-
     .product-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
@@ -1135,9 +1134,36 @@ nav a:hover {
         font-size: 1rem;
     }
 
+
     .product .rating,
-    .product .reviews {
-        font-size: 0.85rem;
+    .product .reviews,
+    .testi-item .reviews,
+    .testi-item .rating {
+        font-size: 1.2rem;
+        /* Increase font size for better visibility */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rating .star {
+        font-size: 1.5rem;
+        /* Make the stars bigger */
+        margin: 2px;
+        /* Add spacing between stars */
+    }
+
+    .rating .half {
+        position: relative;
+    }
+
+    .rating .half::before {
+        content: "★";
+        position: absolute;
+        color: gray;
+        /* Make unfilled portion visible */
+        overflow: hidden;
+        width: 50%;
     }
 
     .add-to-cart {
@@ -1253,6 +1279,7 @@ nav a:hover {
     header {
         padding: 15px 30px;
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
     }
@@ -1356,8 +1383,35 @@ nav a:hover {
         font-size: 1.1rem;
     }
 
-    .product .rating {
-        font-size: 0.9rem;
+    .product .rating,
+    .product .reviews,
+    .testi-item .reviews,
+    .testi-item .rating {
+        font-size: 1.2rem;
+        /* Increase font size for better visibility */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rating .star {
+        font-size: 1.5rem;
+        /* Make the stars bigger */
+        margin: 2px;
+        /* Add spacing between stars */
+    }
+
+    .rating .half {
+        position: relative;
+    }
+
+    .rating .half::before {
+        content: "★";
+        position: absolute;
+        color: gray;
+        /* Make unfilled portion visible */
+        overflow: hidden;
+        width: 50%;
     }
 
 
